@@ -66,6 +66,20 @@ h1 {
   transition: all 0.4s;
 }
 
-.hole .up .mole {
+.hole.up .mole {
   top: 0;
+}
+
+button {
+  background-color: #ffc600;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: inherit;
+  border: 3px solid black;
+  margin-left: 50px;
+}
+
+button:hover {
+  background-color: ivory;
 }
